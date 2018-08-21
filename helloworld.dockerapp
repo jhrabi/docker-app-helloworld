@@ -2,7 +2,7 @@
 # Version of the application
 version: 0.1.0
 # Name of the application
-name: helloworld-shm-size
+name: helloworld
 # A short description of the application
 description: "SHM SIZE demo"
 # Namespace to use when pushing to a registry. This is typically your Hub username.
