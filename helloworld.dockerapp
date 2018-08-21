@@ -1,0 +1,23 @@
+# This section contains your application metadata.
+# Version of the application
+version: 0.1.0
+# Name of the application
+name: helloworld-shm-size
+# A short description of the application
+description: "SHM SIZE demo"
+# Namespace to use when pushing to a registry. This is typically your Hub username.
+namespace: "jhrabi"
+# Specify false here if your application doesn't support Swarm or Kubernetes
+targets:
+  swarm: false
+  kubernetes: false
+
+---
+# This section contains the Compose file that describes your application services.
+version: '3.5'
+services:
+  hello-world:
+    image: hello-world
+
+---
+# This section contains the default values for your application settings.
